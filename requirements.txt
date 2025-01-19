@@ -1,0 +1,4 @@
+tf-keras
+python-dotenv
+transformers
+pillow
