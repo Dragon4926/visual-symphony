@@ -2,3 +2,5 @@ tf-keras
 python-dotenv
 transformers
 pillow
+langchain
+langchain-groq
