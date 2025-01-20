@@ -4,3 +4,6 @@ transformers
 pillow
 langchain
 langchain-groq
+scipy
+bark
+tensorflow
