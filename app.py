@@ -39,7 +39,9 @@ logging.set_verbosity_error()
 
 load_dotenv(find_dotenv())
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+if not GROQ_API_KEY:
+    raise ValueError("GROQ_API_KEY environment variable not set")
 
 #img2txt
 def image2text(url):

@@ -1,2 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+env/
+
+# Media & generated assets
+*.wav
+*.jpg
+*.png
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# IDE
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Local development
+*.local
+
+# Testing
+coverage.xml
+htmlcov/
+
+# Build artifacts
+dist/
+build/
 .env
 me
