@@ -1,6 +1,7 @@
 # Visual Symphony - Multimodal Narrative Generator
 
-![Architecture Diagram](im1.jpg)
+### Demo
+https://github.com/user-attachments/assets/0d0aa59e-4b55-4d80-9f33-4ef76fee6b63
 
 ## Project Overview
 AI-powered pipeline transforming visual inputs into immersive audio narratives through:
