@@ -85,14 +85,16 @@ except Exception as e:
 
 ```
 
+
 ## Architecture
 The pipeline follows a sequential flow:
+
 ```mermaid
 graph TD
-    A[Image Input (.jpg, .png)] -->|webui.py or app.py| B(BLIP Image Captioning);
-    B -- Caption --> C(Mixtral-8x7B Story Generation via Groq);
-    C -- Story Text --> D(Bark Speech Synthesis);
-    D -- Audio Data --> E[Audio Output (bark_generation.wav)];
+    A[Image Input ] -->|via script| B[BLIP Image Captioning];
+    B -->|Generated Caption| C[Mixtral-8x7B Story Generation via Groq];
+    C -->|Generated Story Text| D[Bark Speech Synthesis];
+    D -->|Audio Data| E[Audio Output bark_generation.wav];
 ```
 
 ## Code Documentation
